@@ -1,13 +1,14 @@
 {
   "name": "portfolio",
   "private": true,
-  "homepage": "https://github.com/k4rthlk/portfoilio.git",
+  "homepage": "https://k4rthlk.github.io/portfolio",
   "version": "0.0.0",
   "type": "module",
 
- "scripts": {
+"scripts": {
   "dev": "vite",
   "build": "vite build",
+  "lint": "eslint .",
   "preview": "vite preview",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
